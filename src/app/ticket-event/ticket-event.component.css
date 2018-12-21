@@ -1,0 +1,68 @@
+label{
+    font-weight: bold;
+}
+
+.formControl{
+    background-color: #ccc;
+    width: 55%;
+    height:auto;
+    margin-top:3%; 
+    padding: 10px;
+    text-align: center;
+}
+
+.rowctl{
+    text-align: center;
+}
+/* fix icon and font in the same line */
+button{
+    display: inline-flex;
+    vertical-align: middle;
+    outline: 0;
+}
+
+.table{
+    margin-top: 5%;
+}
+.table tr.active td {
+    background-color:#f3e7a6 !important;
+}
+
+.collapsed{
+    height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    opacity: 1
+  }
+
+agm-map {
+    height: 400px;
+}
+
+
+.progress-wrapper{
+    position: relative;
+    margin: 0;
+}
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+}
+round-progress{
+    width:10px;
+    height: 10px    ;
+}
+.progress-wrapper .text{
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    text-align: left;
+    margin-left:15px;
+    z-index: 1;
+}
